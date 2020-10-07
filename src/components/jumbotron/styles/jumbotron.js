@@ -24,4 +24,4 @@ export const Title = styled.h1``;
 
 export const SubTitle = styled.h1``;
 
-export const Image = styled.image``;
+export const Image = styled.img``;
