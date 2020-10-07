@@ -13,7 +13,7 @@
         "subTitle": "Save your data and watch all your favourites offline.",
         "image": "/images/misc/home-mobile.jpg",
         "alt": "Watch on mobile",
-        "direction": "row"
+        "direction": "row-reverse"
     },
     {
         "id": 3,
