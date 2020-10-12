@@ -38,7 +38,7 @@ export function BrowseContainer({ slides }) {
     } else {
       setSlideRows(slides[category]);
     }
-  }, [searchTerm, category, slideRows, slides]);
+  }, [searchTerm]);
 
   return profile.displayName ? (
     <>
