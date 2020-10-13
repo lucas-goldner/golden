@@ -32,7 +32,7 @@ export const Button = styled.button`
   align-items: center;
   height: 100%;
   height: 70px;
-  background: #e50914;
+  background: #ffa611;
   color: white;
   text-transform: uppercase;
   padding: 0 32px;
@@ -51,7 +51,7 @@ export const Button = styled.button`
   }
 
   &:hover {
-    background: #f40612;
+    background: #f5820d;
   }
 
   @media (max-width: 1000px) {
