@@ -9,7 +9,8 @@ import * as ROUTES from '../constants/routes';
 export default function SignUp() {
   const history = useHistory();
   const { firebase } = useContext(FirebaseContext);
-
+  const url = window.location.href;
+  const email = url.substring(url.indexOf("?")+1, url.length);
   const [firstName, setFirstName] = useState('');
   const [emailAddress, setEmailAddress] = useState('');
   const [password, setPassword] = useState('');
@@ -56,7 +57,7 @@ export default function SignUp() {
             />
             <Form.Input
               placeholder="Email address"
-              value={emailAddress}
+              value={email}
               onChange={({ target }) => setEmailAddress(target.value)}
             />
             <Form.Input
