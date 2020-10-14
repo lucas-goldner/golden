@@ -10,4 +10,4 @@ No MaterialUI this time around :(
 
 ### Branches
 The main branch showcases the website exactly like Netflix, but you might be more interested in the FES branch, because
-there you can really see what golden.lucas-goldner.com has to offer!
+there you can really see what https://golden.lucas-goldner.com has to offer!
