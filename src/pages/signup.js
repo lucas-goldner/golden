@@ -10,9 +10,13 @@ export default function SignUp() {
   const history = useHistory();
   const { firebase } = useContext(FirebaseContext);
   const url = window.location.href;
-  const email = url.substring(url.indexOf("?")+1, url.length);
+  let email = url.substring(url.indexOf("?")+1, url.length);
+  const hasMail = url.indexOf("?");
+  if(hasMail===-1){
+    email="";
+  }
   const [firstName, setFirstName] = useState('');
-  const [emailAddress, setEmailAddress] = useState('');
+  const [emailAddress, setEmailAddress] = useState(email);
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
 
@@ -57,7 +61,7 @@ export default function SignUp() {
             />
             <Form.Input
               placeholder="Email address"
-              value={email}
+              value={emailAddress}
               onChange={({ target }) => setEmailAddress(target.value)}
             />
             <Form.Input
