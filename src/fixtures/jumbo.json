@@ -1,26 +1,26 @@
 [
   {
     "id": 1,
-    "title": "Enjoy on your TV.",
-    "subTitle": "Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.",
+    "title": "Amazingly edited videos!",
+    "subTitle": "Watch professionally made videos in Premiere Pro© and After Effects© by Lucas Goldner.",
     "image": "/images/misc/home-tv.jpg",
     "alt": "Tiger King on Netflix",
-    "direction": "row"
-  },
-  {
-    "id": 2,
-    "title": "Download your programmes to watch on the go.",
-    "subTitle": "Save your data and watch all your favourites offline.",
-    "image": "/images/misc/home-mobile.jpg",
-    "alt": "Watch on mobile",
     "direction": "row-reverse"
   },
   {
-    "id": 3,
-    "title": "Watch everywhere.",
-    "subTitle": "Stream unlimited films and TV programmes on your phone, tablet, laptop and TV without paying more.",
-    "image": "/images/misc/home-imac.jpg",
-    "alt": "Money Heist on Netflix",
+    "id": 2,
+    "title": "Community.",
+    "subTitle": "If you are very motivated you can try to submit your own videos. They might be added...",
+    "image": "/images/misc/home-mobile.jpg",
+    "alt": "Community",
     "direction": "row"
+  },
+  {
+    "id": 3,
+    "title": "Watch at home or at the go.",
+    "subTitle": "Stream whenever you feel like, like in the train, gym, at school or even on the toilet.",
+    "image": "/images/misc/home-imac.jpg",
+    "alt": "Different devices showcasing the website",
+    "direction": "row-reverse"
   }
 ]
