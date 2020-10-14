@@ -5,7 +5,7 @@
     "subTitle": "Watch professionally made videos in Premiere Pro© and After Effects© by Lucas Goldner.",
     "image": "/images/misc/home-tv.jpg",
     "alt": "Tiger King on Netflix",
-    "direction": "row-reverse"
+    "direction": "row"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "subTitle": "If you are very motivated you can try to submit your own videos. They might be added...",
     "image": "/images/misc/home-mobile.jpg",
     "alt": "Community",
-    "direction": "row"
+    "direction": "row-reverse"
   },
   {
     "id": 3,
@@ -21,6 +21,6 @@
     "subTitle": "Stream whenever you feel like, like in the train, gym, at school or even on the toilet.",
     "image": "/images/misc/home-imac.jpg",
     "alt": "Different devices showcasing the website",
-    "direction": "row-reverse"
+    "direction": "row"
   }
 ]
